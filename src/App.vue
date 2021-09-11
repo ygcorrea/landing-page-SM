@@ -1073,7 +1073,24 @@ export default {
 .eight-section-main-content{
   margin-bottom: 100px;
 }
-/*  */
+/* Global */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(80, 80, 80); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #00211b; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #001e1f; 
+}
 .subscribe-button {
   width: 362px;
   height: 60px;
