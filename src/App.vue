@@ -105,6 +105,62 @@
         </div>
       </div>
     </section>
+    <section class="fourth-section">
+      <div class="fourth-section-container">
+        <div class="fourth-section-title">
+          <h2>O programa de mentoria</h2>
+        </div>
+        <div class="program-section">
+          <div class="program-first-column">
+            <div class="pos-rel">
+              <div class="box1-top"></div>
+              <h4>Treinamento Completo</h4>
+              <h3>Smart Money</h3>
+              <p>
+                3 módulos completos para você aprender a criar, recriar, escalar
+                e captar investimento.
+              </p>
+            </div>
+            <div class="pos-rel">
+              <div class="box1-bottom"></div>
+              <h4>Smart</h4>
+              <h3>Black Book</h3>
+              <p>
+                O livro negro para fazer dinheiro inteligente entregue na sua
+                casa.
+              </p>
+            </div>
+          </div>
+          <div class="program-second-column">
+            <div class="pos-rel">
+              <div class="box2-top"></div>
+              <h4>51 anos em</h4>
+              <h3>51 dias</h3>
+              <p>
+                7 semanas de mentoria com 2 encontros semanais, sendo 1 encontro
+                com João Kepler e 1 encontro com um mentor convidado.
+              </p>
+              <div class="box2-bottom"></div>
+            </div>
+          </div>
+          <div class="program-third-column">
+            <div>
+              <h4>Jk</h4>
+              <h3>Canva</h3>
+              <p>
+                O material de uma única página para contruir o seu negócio
+                baseado nas 10 perguntas inteligentes.
+              </p>
+            </div>
+            <div>
+              <h4>Comunidade</h4>
+              <h3>Smart Money</h3>
+              <p>Grupo exclusivo para os mentorados Smart Money.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -332,7 +388,7 @@ export default {
 /* Third section */
 .third-section {
   width: 100%;
-  height: 1080px;
+  height: 880px;
   background: #001e1f;
   display: flex;
   justify-content: center;
@@ -430,13 +486,150 @@ export default {
 }
 .third-section-instructors-title {
   font-size: 30px;
-  font-weight: 700;
   color: #fcf7f7;
   text-transform: uppercase;
 }
 
 .third-section-instructors {
   display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+.fourth-section {
+  width: 100%;
+  height: 735px;
+  background: #e0e0e0;
+}
+
+.fourth-section-container {
+  width: 1040px;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourth-section-title h2 {
+  width: 100%;
+  height: 130px;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  color: #001e1f;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  letter-spacing: 3.5px;
+}
+
+.program-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 1000px;
+}
+.program-first-column {
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.program-third-column {
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.program-first-column h4,
+.program-second-column h4,
+.program-third-column h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #011c1c;
+  text-transform: uppercase;
+}
+
+.program-first-column h3,
+.program-second-column h3,
+.program-third-column h3 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #00aa89;
+  text-transform: uppercase;
+}
+
+.program-first-column p,
+.program-second-column p,
+.program-third-column p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #00211b;
+  letter-spacing: 1.2px;
+}
+.program-first-column,
+.program-second-column,
+.program-third-column {
+  width: 295px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.box1-top {
+  border-top: 3px solid #00aa89;
+  border-right: 3px solid #00aa89;
+  position: absolute;
+  left: 246px;
+  width: 113px;
+  height: 50px;
+  top: 10px;
+}
+.box1-bottom {
+  border-bottom: 3px solid #00aa89;
+  border-right: 3px solid #00aa89;
+  position: absolute;
+  left: 278px;
+  width: 80px;
+  height: 120px;
+  top: 60px;
+}
+.box1-bottom:after {
+  content: "";
+  width: 57px;
+  transform: rotate(90deg);
+  background-color: #00aa89;
+  position: absolute;
+  right: 50px;
+  top: 90px;
+  border-top: 3px solid #00aa89;
+}
+.box2-top {
+  border-top: 3px solid #00aa89;
+  border-left: 3px solid #00aa89;
+  position: absolute;
+  left: 208px;
+  width: 144px;
+  height: 150px;
+  bottom: 116px;
+}
+.box2-bottom {
+  border-bottom: 3px solid #00aa89;
+  border-left: 3px solid #00aa89;
+  position: absolute;
+  left: 208px;
+  width: 151px;
+  height: 144px;
+  top: 170px;
+}
+.box2-bottom:after {
+  content: "";
+  width: 45px;
+  transform: rotate(90deg);
+  background-color: #00aa89;
+  position: absolute;
+  top: 120px;
+  left: 125px;
+  border-top: 3px solid #00aa89;
 }
 
 /*  */
@@ -457,5 +650,8 @@ export default {
 }
 .subtitle:nth-child(3) {
   color: #fcf7f7;
+}
+.pos-rel {
+  position: relative;
 }
 </style>
