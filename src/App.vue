@@ -148,7 +148,7 @@
               <h4>Jk</h4>
               <h3>Canva</h3>
               <p>
-                O material de uma única página para contruir o seu negócio
+                O material de uma única página para construir o seu negócio
                 baseado nas 10 perguntas inteligentes.
               </p>
             </div>
@@ -156,6 +156,86 @@
               <h4>Comunidade</h4>
               <h3>Smart Money</h3>
               <p>Grupo exclusivo para os mentorados Smart Money.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fifth-section">
+      <div class="fifth-section-container">
+        <div class="fifth-section-main-content">
+          <div class="fifth-section-title">
+            <h2>Bônus <font color="#00E1BE">exponenciais</font></h2>
+          </div>
+          <div>
+            <div class="fifth-section-card-bonus">
+              <div class="card-bonus1">
+                <h3>Imersão bossa nova</h3>
+                <p>
+                  20 mentorados terão o privilé-<pre>gio de estar presencialmente</pre>
+                  comigo em uma imersão.
+                <pre><font color="#00E1BE">10 PRIMEIROS QUE COMPRAREM.</font></pre>
+                <pre>10 escolhidos, se você adquirir</pre> a mentoria até <strong>23:59 do dia 12/11.</strong>
+                </p>
+              </div>
+              <div class="card-bonus2">
+                <h3>Livros autografados</h3>
+                <p>
+                  Eu vou te enviar um pacote ex-<pre>clusivo de livros autografados:</pre>
+                 <font color="#00E1BE"><pre>100% presente do Joel Jota, Do</pre><pre>mil ao Milhão do Thiago Nigro.</pre>
+                  </font>
+                  e meu livro <font color="#00E1BE">Smart Money.</font> So-<pre>mente para quem adquirir a</pre>
+                 mentoria até <strong>23:59 do dia 12/11.</strong>
+                </p>
+              </div>
+              <div class="card-bonus3">
+                <h3>
+                  Palestra exclusiva
+                  <pre>como investir em startup</pre>
+                </h3>
+                <p>
+                  Metodologia para você além de<pre>se tornar um empreendedor lu-</pre>crativo,
+                  <font color="#00E1BE">saber como investir</font>
+                  em negócios exponenciais.
+                </p>
+              </div>
+            </div>
+            <div class="line-bottom"></div>
+            <div class="fifth-section-card-bonus">
+              <div class="card-bonus1">
+                <h3>
+                  Gravação
+                  <pre>o negócio mais</pre>
+                  lucrativo do mundo
+                </h3>
+                <p>
+                 <pre> Todas as lives que fizemos du-</pre><pre>rante a imersão disponibiliza-</pre>das
+                  para você
+                  <font color="#00E1BE">assistir quando quiser.</font>
+                </p>
+              </div>
+              <div class="card-bonus2">
+                <h3>
+                  Seminário como
+                  <pre>tirar seu projeto</pre>
+                  do papel por joel jota
+                </h3>
+                <p>
+                  Seminário do meu amigo
+                  <font color="#00E1BE"> Joel Jota </font>
+                  para te ensinar o passo a passo para tirar seu projeto do
+                  papel.
+                </p>
+              </div>
+              <div class="card-bonus3">
+                <h3>
+                  Branding digital
+                  <pre>by hyeser</pre>
+                </h3>
+                <p><pre>Como <font color="#00E1BE">se tornar autoridade</font> utili-</pre>zando
+                  as redes sociais.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -432,7 +512,7 @@ export default {
   width: 220px;
   font-size: 100px;
   line-height: 85px;
-  color: white;
+  color: #fcf7f7;
   text-transform: uppercase;
 }
 .third-section-smart-money h2:first-child {
@@ -455,7 +535,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  color: white;
+  color: #fcf7f7;
   padding: 20px;
   border-left: 2px solid #00e1be;
 }
@@ -466,7 +546,7 @@ export default {
 .third-section-mentoring h3 {
   font-size: 45px;
   font-weight: 400;
-  color: white;
+  color: #fcf7f7;
   text-transform: uppercase;
   letter-spacing: 15px;
   margin-left: 5px;
@@ -497,7 +577,7 @@ export default {
 }
 .fourth-section {
   width: 100%;
-  height: 735px;
+  height: 620px;
   background: #e0e0e0;
 }
 
@@ -630,6 +710,91 @@ export default {
   top: 120px;
   left: 125px;
   border-top: 3px solid #00aa89;
+}
+
+/*  */
+/* Fifth section */
+.fifth-section {
+  width: 100%;
+  height: 800px;
+  background: url(./assets/Graphic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fifth-section-container {
+  width: 100%;
+  height: 100%;
+  background: #021a1bab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fifth-section-main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1050px;
+  align-items: center;
+}
+
+.fifth-section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.fifth-section-title h2 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fcf7f7;
+  text-transform: uppercase;
+}
+
+.fifth-section-card-bonus {
+  width: 100%;
+  display: flex;
+}
+
+.card-bonus1,
+.card-bonus2,
+.card-bonus3 {
+  width: 315px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 0px 0px 20px;
+}
+
+.card-bonus2 {
+  border-left: 2px solid #00aa89;
+  border-right: 2px solid #00aa89;
+}
+
+.card-bonus1 p,
+.card-bonus2 p,
+.card-bonus3 p {
+  width: 257px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #fcf7f7;
+  padding: 10px 0px 0px 10px;
+}
+
+.card-bonus1 h3,
+.card-bonus2 h3,
+.card-bonus3 h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fcf7f7;
+  text-transform: uppercase;
+  padding: 10px 0px 0px 10px;
+}
+
+.line-bottom {
+  width: 100%;
+  border-bottom: 2px solid #00aa89;
 }
 
 /*  */
