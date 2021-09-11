@@ -241,6 +241,41 @@
         </div>
       </div>
     </section>
+     <section class="sixth-section">
+        <div class="sixth-section-container pos-rel">
+          <div class="sixth-section-title">
+            <h2>Quanto vale tudo isso?</h2>
+          </div>
+            <div class="sixth-section-content">
+              <h3>Quanto vale conquistar sua liberdade de escala e financeira?</h3>
+              <p>
+                Quanto vale sair do campo da ideia de uma vez por todas e construir um <pre>negócio lucrativo e exponencial?</pre>
+              </p>
+            </div>
+            <div class="price-section">          
+              <h5>De <font >R$ 2.500,00</font> por</h5>
+              <div class="value">
+              <div>R$</div> 
+              <img src="./assets/Value.png" alt="">
+              <span>a vista</span> 
+              </div>
+              <p>ou 12 X R$ 197,00</p>
+           </div>
+          <button type="submit" class="absolute">Fazer Inscrição</button>
+        </div>
+    </section>
+     <section class="seventh-section">
+        <div class="seventh-section-container" >
+            <h2>7 dias de garantia</h2>
+            <p>Adquirindo o nosso programa de mentoria SMART MONEY e percebendo que
+              <pre>você ainda não está pronto para conquistar sua liberdade de escala e financei-</pre>ra,
+                basta nos enviar um e-mail e iremos reembolsar o valor imediatamente.
+                <pre>Sem perguntas, nem pedidos de justificativas.</pre>
+                <pre>Simples assim. Esse é o reflexo de confiança que temos na qualidade do conhe-</pre> cimento que você está
+                prestes a adquirir.
+            </p>
+        </div>
+    </section>
   </div>
 </template>
 
@@ -270,6 +305,7 @@ export default {
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
 }
+
 /* First section */
 .first-container {
   width: 100%;
@@ -293,7 +329,6 @@ export default {
   font-size: 65px;
   text-transform: uppercase;
   letter-spacing: 23px;
-  font-weight: 400;
   z-index: 3;
   margin-left: 5px;
 }
@@ -575,6 +610,7 @@ export default {
   justify-content: space-between;
   height: 300px;
 }
+/* Fourth Section */
 .fourth-section {
   width: 100%;
   height: 620px;
@@ -712,7 +748,6 @@ export default {
   border-top: 3px solid #00aa89;
 }
 
-/*  */
 /* Fifth section */
 .fifth-section {
   width: 100%;
@@ -797,6 +832,151 @@ export default {
   border-bottom: 2px solid #00aa89;
 }
 
+/* Sixth section */
+
+.sixth-section {
+  width: 100%;
+  height: 650px;
+  background: #e0e0e0;
+  display: flex;
+  justify-content: center;
+}
+
+.sixth-section-container {
+  width: 1040px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.sixth-section-container p {
+  font-size: 25px;
+  color: #000000;
+}
+.sixth-section-container h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #001e1f;
+  text-transform: uppercase;
+  height: 55px;
+}
+
+.sixth-section-container h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+.sixth-section-container h4 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #001e1f;
+  text-transform: uppercase;
+}
+.sixth-section-container h5 {
+  font-size: 50px;
+  color: #001e1f;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  letter-spacing: 0px;
+}
+.sixth-section-title {
+  border-bottom: 2px solid;
+  height: 87px;
+  width: 830px;
+}
+.sixth-section-content {
+  text-align: center;
+}
+.price-section .value {
+  display: flex;
+  font-size: 40px;
+  font-weight: 600;
+
+}
+.price-section .value span {
+  margin-left: 10px;
+  align-self: flex-end;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.price-section .value div {
+  margin-right: 10px;
+  padding-left: 70px;
+  font-size: 50px;
+
+}
+.price-section .value img {
+  width: 407.36px;
+  height: 128.19px;
+}
+.price-section  p{
+    font-size: 40px;
+
+}
+.price-section font {
+  text-decoration: line-through;
+  color: #7a7a7a;
+  text-decoration-color: #001e1f;
+}
+.sixth-section-container .absolute {
+  width: 362px;
+  position: absolute;
+  color: #011913;
+  font-size: 35px;
+  top:580px;
+  height: 60px;
+  cursor: pointer;
+  background: #00e1be;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+/* Seventh section */
+.seventh-section {
+    width: 100%;
+    height: 637px;
+    background: #001E1F;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seventh-section-container {
+    width: 1040px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.seventh-section-container h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #00E1BE;
+    text-transform: uppercase;
+}
+
+.seventh-section-container p {
+    width: 900px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
 /*  */
 .subscribe-button {
   width: 362px;
@@ -819,4 +999,5 @@ export default {
 .pos-rel {
   position: relative;
 }
+
 </style>
