@@ -279,23 +279,25 @@
      <section class="eighth-section">
         <div class="eighth-section-container">
             <img src="./assets/KeplerRounded.png" />
-            <div class="eighth-section-title">
-                <h2>João Kepler</h2>
-                <h3>O maior investidor do <pre>Brasil vai ser seu mentor</pre></h3>
-            </div>
-            <div class="eighth-section-text">
-                <h4><pre>Empreendedor que investe desde 2008, reconhecido como um dos conferencistas mais sintonizados</pre>
-                 com inovação e convergência digital do Brasil,é especialista em empreendedorismo,
-                 <pre>
-                  startups, marketing e vendas.
-                 </pre>
-                </h4>
-                <p>Participa em +400 StartUps: Lead Partner da Bossa Nova Investimentos; Premiado como melhor Investidor Anjo do Brasil pelo <pre>
-                  Startup Awards: Diretor na FIESP e na ASSESPRO; Conselheiro na ACE, ANPROTEC e ACSP; Colunista de diversos Portais do Brasil;</pre> 
-                  Palestrante internacional; Escritor e autor e coautor devários Livros, entre les o (O vendedor na Era Digital), (Eduvando Filhos
-                   <pre> para Empreender), (Smart Money) e (Gestão Ágil); Premiado por anos consecutivos como um dos maiores Incentivadores do Ecos-</pre> 
-                   sistema Empreendedor Brasileiro; Espalhador de Ideias Digitais e Melhores Práticas em Negócios.
-                </p>
+            <div class="eight-section-main-content">
+              <div class="eighth-section-title">
+                  <h2>João Kepler</h2>
+                  <h3>O maior investidor do <pre>Brasil vai ser seu mentor</pre></h3>
+              </div>
+              <div class="eighth-section-text">
+                  <h4><pre>Empreendedor que investe desde 2008, reconhecido como um dos conferencistas mais sintonizados</pre>
+                  com inovação e convergência digital do Brasil,é especialista em empreendedorismo,
+                  <pre>
+                    startups, marketing e vendas.
+                  </pre>
+                  </h4>
+                  <p>Participa em +400 StartUps: Lead Partner da Bossa Nova Investimentos; Premiado como melhor Investidor Anjo do Brasil pelo <pre>
+                    Startup Awards: Diretor na FIESP e na ASSESPRO; Conselheiro na ACE, ANPROTEC e ACSP; Colunista de diversos Portais do Brasil;</pre> 
+                    Palestrante internacional; Escritor e autor e coautor devários Livros, entre les o (O vendedor na Era Digital), (Eduvando Filhos
+                    <pre> para Empreender), (Smart Money) e (Gestão Ágil); Premiado por anos consecutivos como um dos maiores Incentivadores do Ecos-</pre> 
+                    sistema Empreendedor Brasileiro; Espalhador de Ideias Digitais e Melhores Práticas em Negócios.
+                  </p>
+              </div>
             </div>
         </div>
     </section>
@@ -922,7 +924,6 @@ export default {
   display: flex;
   font-size: 40px;
   font-weight: 600;
-
 }
 .price-section .value span {
   margin-left: 10px;
@@ -934,15 +935,13 @@ export default {
   margin-right: 10px;
   padding-left: 70px;
   font-size: 50px;
-
 }
 .price-section .value img {
   width: 407.36px;
   height: 128.19px;
 }
-.price-section  p{
-    font-size: 40px;
-
+.price-section p {
+  font-size: 40px;
 }
 .price-section font {
   text-decoration: line-through;
@@ -954,124 +953,125 @@ export default {
   position: absolute;
   color: #011913;
   font-size: 35px;
-  top:580px;
+  top: 580px;
   height: 60px;
   cursor: pointer;
   background: #00e1be;
   border-radius: 20px;
   text-transform: uppercase;
   font-weight: bold;
-
 }
 /* Seventh section */
 .seventh-section {
-    width: 100%;
-    height: 637px;
-    background: #001E1F;
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 637px;
+  background: #001e1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .seventh-section-container {
-    width: 1040px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-    gap: 10px;
-    margin-bottom: 100px;
+  width: 1040px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  gap: 10px;
+  margin-bottom: 100px;
 }
 
 .seventh-section-container h2 {
-    font-size: 45px;
-    font-weight: 700;
-    color: #00E1BE;
-    text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+  color: #00e1be;
+  text-transform: uppercase;
 }
 
 .seventh-section-container p {
-    width: 900px;
-    font-size: 25px;
-    line-height: 40px;
-    font-weight: 400;
-    color: #FFFFFF;
-    letter-spacing: 1px;
+  width: 900px;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1px;
 }
 /* Eighth section */
 .eighth-section {
-    width: 100%;
-    height: 627px;
-    background: #E0E0E0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
+  width: 100%;
+  height: 100%;
+  background: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .eighth-section-container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: center;
-    margin-top: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  margin-top: 120px;
 }
 
 .eighth-section-container img {
-    width: 166px;
-    height: auto;
-    position: absolute;
-    top: -70px;
+  width: 166px;
+  height: auto;
+  position: absolute;
+  top: -70px;
 }
 
 .eighth-section-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
 }
 
 .eighth-section-title h2 {
-    font-size: 70px;
-    margin-left: 75px;
-    font-weight: 700;
-    color: #00E1BE;
-    text-transform: uppercase;
+  font-size: 70px;
+  margin-left: 75px;
+  font-weight: 700;
+  color: #00e1be;
+  text-transform: uppercase;
 }
 
 .eighth-section-title h3 {
-    width: 500px;
-    font-size: 35px;
-    line-height: 35px;
-    font-weight: 700;
-    color: #1A1A1A;
-    text-transform: uppercase;
-    text-align: left;
+  width: 500px;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 .eighth-section-text h4 {
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: 700;
-    color: #000000;
-    text-transform: uppercase;
-    padding: 40px 0 0 0;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 40px 0 0 0;
 }
 
 .eighth-section-text p {
-    width: 900px;
-    font-size: 17px;
-    line-height: 20px;
-    font-weight: 600;
-    color: #474747;
-    line-height: 28px;
+  width: 900px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #474747;
+  line-height: 28px;
+}
+.eight-section-main-content{
+  margin-bottom: 100px;
 }
 /*  */
 .subscribe-button {
@@ -1095,5 +1095,4 @@ export default {
 .pos-rel {
   position: relative;
 }
-
 </style>
