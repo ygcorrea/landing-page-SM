@@ -18,9 +18,9 @@
             <span> dinheiro de forma inteligente </span>
             <span>e construir sua liberdade de escala e financeira.</span>
           </div>
-          <button class="subscribe-button" type="submit">
+          <a class="subscribe-button" href="https://sme.com.br/" target="_blank">
             Fazer Inscrição
-          </button>
+          </a>
         </div>
         <div class="img-section">
           <img src="./assets/Kepler.png" alt="" />
@@ -71,7 +71,7 @@
           Ou você domina como criar um negócio baseado em<br />
           equity ou vira escravo da sua empresa.
         </p>
-        <button class="subscribe-button" type="submit">Fazer Inscrição</button>
+        <a class="subscribe-button" href="https://sme.com.br/" target="_blank" >Fazer Inscrição</a>
       </div>
     </section>
 
@@ -261,7 +261,7 @@
               </div>
               <p>ou 12 X R$ 197,00</p>
            </div>
-          <button type="submit" class="absolute">Fazer Inscrição</button>
+          <a  href="https://sme.com.br/" target="_blank" class="absolute">Fazer Inscrição</a>
         </div>
     </section>
      <section class="seventh-section">
@@ -949,6 +949,10 @@ export default {
   text-decoration-color: #001e1f;
 }
 .sixth-section-container .absolute {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 362px;
   position: absolute;
   color: #011913;
@@ -1092,6 +1096,10 @@ export default {
   background: #001e1f; 
 }
 .subscribe-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   width: 362px;
   height: 60px;
   cursor: pointer;
