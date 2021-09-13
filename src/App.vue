@@ -1454,6 +1454,7 @@ export default {
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
+    margin-bottom: 60px;
     gap: 50px;
   }
   .third-section-instructors img {
@@ -1497,14 +1498,14 @@ export default {
   .fourth-section-container {
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .fourth-section-title h2 {
-    width: 100%;
+    width: 50%;
     height: 100%;
-    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 25px;
     font-family: "Roboto", sans-serif;
     color: #001e1f;
     text-transform: uppercase;
@@ -1521,24 +1522,18 @@ export default {
   .program-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-  }
-
-  .program-first-column,
-  .program-second-column,
-  .program-third-column {
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
+    border-left: 2px solid #00e1be;
+    border-right: 2px solid #00e1be;
     height: 100%;
-    display: none;
   }
   .box1-top {
     display: none;
   }
   .box1-bottom {
-    left: 278px;
-    width: 80px;
-    height: 120px;
-    top: 60px;
+    display: none;
   }
 
   .box2-top {
@@ -1547,16 +1542,70 @@ export default {
   .box2-bottom {
     display: none;
   }
+
+  .program-first-column,
+  .program-second-column,
+  .program-third-column {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin: 10px;
+  }
+  .program-first-column h3 {
+    font-size: 25px;
+  }
+  .program-first-column h4 {
+    font-size: 15px;
+  }
+  .program-first-column p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #00211b;
+    letter-spacing: 0.2px;
+  }
+  .program-second-column h3 {
+    font-size: 25px;
+  }
+  .program-second-column h4 {
+    font-size: 15px;
+  }
+  .program-second-column p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #00211b;
+    letter-spacing: 0.2px;
+  }
+
+  .program-third-column h3 {
+    font-size: 25px;
+  }
+  .program-third-column h4 {
+    font-size: 15px;
+  }
+  .program-third-column p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #00211b;
+    letter-spacing: 0.2px;
+  }
+
   /* Fifth section */
   .fifth-section {
-    width: 600px;
-    height: 800px;
-    display: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: url(/img/Graphic.2690d811.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .fifth-section-container {
-    width: 600px;
-    height: 1000px;
+    width: 100%;
+    height: 100%;
     background: #021a1bab;
     display: flex;
     align-items: center;
@@ -1566,7 +1615,6 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 360px;
     align-items: center;
   }
 
@@ -1576,15 +1624,16 @@ export default {
   }
 
   .fifth-section-title h2 {
-    font-size: 80px;
+    font-size: 3em;
     font-weight: 700;
     color: #fcf7f7;
     text-transform: uppercase;
+    margin-top: 20px;
   }
 
   .fifth-section-card-bonus {
     width: 100%;
-    display: flex;
+    display: block;
   }
 
   .card-bonus1,
@@ -1635,7 +1684,6 @@ export default {
   .sixth-section {
     width: 100%;
     height: 650px;
-    background: #ff0505;
     display: flex;
     justify-content: center;
   }
@@ -1652,7 +1700,8 @@ export default {
   }
 
   .sixth-section-container p {
-    font-size: 25px;
+    font-size: 17px;
+    margin-top: 20px;
     color: #000000;
   }
   .sixth-section-container h2 {
@@ -1664,7 +1713,7 @@ export default {
   }
 
   .sixth-section-container h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: #000000;
     text-transform: uppercase;
@@ -1676,24 +1725,31 @@ export default {
     text-transform: uppercase;
   }
   .sixth-section-container h5 {
-    font-size: 50px;
+   font-size: 50px;
     color: #001e1f;
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 10px;
     margin-right: 15px;
     letter-spacing: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .sixth-section-title {
     border-bottom: 2px solid;
-    height: 87px;
+    height: 68px;
     width: 100%;
   }
   .sixth-section-content {
     text-align: center;
   }
+ 
   .price-section .value {
     display: flex;
+    background: #6ed3c4;
+    height: 50px;
     font-size: 20px;
     font-weight: 600;
     justify-content: center;
@@ -1704,6 +1760,8 @@ export default {
     font-size: 20px;
   }
   .price-section .value div {
+    margin-right: 10px;
+    padding-left: 6px;
     font-size: 20px;
   }
   .price-section .value img {
@@ -1711,7 +1769,7 @@ export default {
     height: 50px;
   }
   .price-section p {
-    font-size: 20px;
+    font-size: 23px;
   }
   .price-section font {
     text-decoration: line-through;
@@ -1723,33 +1781,34 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 362px;
     position: absolute;
-    color: #011913;
-    font-size: 35px;
-    top: 580px;
-    height: 60px;
-    cursor: pointer;
-    background: #00e1be;
-    border-radius: 20px;
+    top: 590px;
     text-transform: uppercase;
     font-weight: bold;
+     width: 250px;
+    height: 40px;
+    cursor: pointer;
+    background: #00e1be;
+    border-radius: 15px;
+    color: #011913;
+    font-size: 25px;
   }
   /* 
 */
   /* Seventh section */
   .seventh-section {
     width: 100%;
-    height: 637px;
+    height: 100%;
     background: #001e1f;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
   }
 
   .seventh-section-container {
-    width: 360px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1768,14 +1827,18 @@ export default {
   }
 
   .seventh-section-container p {
-    width: 100%;
-    font-size: 10px;
+    width: 200px;
+    font-size: 15px;
     font-weight: 400;
     color: #ffffff;
     letter-spacing: 0px;
+    white-space: normal;
+    line-height: 20px;
   }
-  /* 
-*/
+   .seventh-section-container pre {
+    white-space: normal;
+  }
+
   /* Eighth section */
   .eighth-section {
     width: 100%;
