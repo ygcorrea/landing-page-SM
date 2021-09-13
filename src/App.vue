@@ -408,6 +408,31 @@ export default {
   z-index: 2;
   height: 950px;
 }
+/* Responsibility on screens 1420px */
+@media (max-width: 1420px) {
+  .first-container {
+    width: 100%;
+    height: 840px;
+    background: #011913;
+    display: flex;
+    justify-content: center;
+  }
+  .img-section {
+    width: 580px;
+    position: relative;
+    z-index: 1;
+  }
+  .img-section img {
+    position: absolute;
+    bottom: -8px;
+    left: -63px;
+    z-index: 2;
+    height: 830px;
+  }
+  .subtitle-container {
+    line-height: 36px;
+  }
+}
 
 .header-bar {
   width: 100%;
@@ -1725,7 +1750,7 @@ export default {
     text-transform: uppercase;
   }
   .sixth-section-container h5 {
-   font-size: 50px;
+    font-size: 50px;
     color: #001e1f;
     text-transform: uppercase;
     font-weight: 400;
@@ -1745,7 +1770,7 @@ export default {
   .sixth-section-content {
     text-align: center;
   }
- 
+
   .price-section .value {
     display: flex;
     background: #6ed3c4;
@@ -1785,7 +1810,7 @@ export default {
     top: 590px;
     text-transform: uppercase;
     font-weight: bold;
-     width: 250px;
+    width: 250px;
     height: 40px;
     cursor: pointer;
     background: #00e1be;
@@ -1835,7 +1860,7 @@ export default {
     white-space: normal;
     line-height: 20px;
   }
-   .seventh-section-container pre {
+  .seventh-section-container pre {
     white-space: normal;
   }
 
